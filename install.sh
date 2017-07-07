@@ -1,5 +1,5 @@
 #!/bin/bash
-# @author       Juan Mendoza <mendozajuan007@gmail.com>
+# @author       Juan Mendoza <juanmendoza.dev@gmail.com>
 
 
 source helpers.sh

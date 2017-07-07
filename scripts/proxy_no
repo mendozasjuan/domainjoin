@@ -1,0 +1,3 @@
+sudo echo 'Acquire::http::Proxy "false";' > /etc/apt/apt.conf.d/proxy
+
+sudo echo '' > /etc/profile.d/proxy

@@ -1,0 +1,7 @@
+sudo echo 'Acquire::http::Proxy "http://127.0.0.1:3128";' > /etc/apt/apt.conf.d/proxy
+sudo echo 'Acquire::ftp::Proxy "http://127.0.0.1:3128";' >> /etc/apt/apt.conf.d/proxy
+
+sudo echo 'export http_proxy=http://127.0.0.1:3128' > /etc/profile.d/proxy
+sudo echo 'export https_proxy=http://127.0.0.1:3128' >> /etc/profile.d/proxy
+sudo echo 'export ftp_proxy=http://127.0.0.1:3128' >> /etc/profile.d/proxy
+
